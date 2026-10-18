@@ -95,13 +95,13 @@ button,a.btn{display:inline-block;border:0;border-radius:10px;padding:10px 14px;
 <select id="upgrade"><option>작품 카드에 살짝 움직이는 효과 넣기</option><option>⭐ MY FAVORITE 카드가 조금 더 눈에 띄게 만들기</option><option>포트폴리오 제목에 간단한 등장 애니메이션 넣기</option><option>각 영역으로 이동하는 메뉴 버튼 넣기</option><option>전체 색상 분위기를 더 보기 좋게 정리하기</option><option>직접 입력</option></select>
 <input id="upgradeCustom" type="text" placeholder="예: 작품 카드 모서리를 둥글게 바꿔줘." style="margin-top:8px">
 <div id="upgradePrompt" class="prompt" style="margin-top:10px"></div><button class="primary" onclick="copyBlock('upgradePrompt','upStatus')">📋 업그레이드 프롬프트 복사</button><span id="upStatus" class="small"></span>
-<div class="note purple"><b>업그레이드는 한 번만!</b><br>기존 글과 작품 내용은 지우지 않고, 고른 디자인만 추가합니다.</div>
+
 </section>
 
 <section class="card">
-<h2><span class="section">11</span>🖼️ 선택 미션 — MY FAVORITE 작품 이미지 넣기</h2>
+<h2><span class="section">11</span>🖼️ MY FAVORITE 작품 이미지 넣기</h2>
 <div class="note green"><b>지난 시간에 배운 방법대로 해봅시다.</b><br>MY FAVORITE 작품 이미지 한 장만 사용합니다.</div>
-<ol><li>ImgBB 열기</li><li>MY FAVORITE 작품 이미지 한 장 올리기</li><li>Direct Link 복사</li><li>아래 입력칸에 붙여넣기</li><li>이미지 추가 프롬프트를 Gemini의 기존 채팅에 붙여넣기</li></ol>
+<ol><li>ImgBB 열기</li><li>MY FAVORITE 작품 이미지 한 장 올리기</li><li>HTML 원본이미지 링크 복사</li><li>아래 입력칸에 붙여넣기</li><li>이미지 추가 프롬프트를 Gemini의 기존 채팅에 붙여넣기</li></ol>
 <a class="btn secondary" href="https://imgbb.com/" target="_blank">ImgBB 열기</a>
 <label>ImgBB 이미지 주소</label><input id="imgUrl" type="text" placeholder="https://i.ibb.co/....jpg">
 <div id="imgPrompt" class="prompt" style="margin-top:10px"></div><button class="primary" onclick="copyBlock('imgPrompt','imgStatus')">📋 이미지 추가 프롬프트 복사</button><span id="imgStatus" class="small"></span>
